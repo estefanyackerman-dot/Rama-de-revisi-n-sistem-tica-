@@ -1,0 +1,4 @@
+source,records_identified,retracted_records_removed,duplicates_removed,records_after_deduplication
+WOS,278,1,2,275
+OVID,561,0,345,216
+PUBMED,104,0,70,34

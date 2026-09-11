@@ -1,0 +1,4 @@
+source,records,missing_title,missing_doi,year_min,year_max,doi_coverage_percent,title_coverage_percent
+OVID,216,0,0,2022,2026,100.0,100.0
+PUBMED,34,0,0,2022,2026,100.0,100.0
+WOS,275,0,1,2022,2026,99.64,100.0
