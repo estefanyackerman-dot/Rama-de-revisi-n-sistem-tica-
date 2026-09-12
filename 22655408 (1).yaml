@@ -1,0 +1,74 @@
+abstract: '<p>Randomized controlled trials focus on working-age outpatients. This
+  repository documents the progress of the systematic review. The complete bibliometric
+  section&mdash;including search documentation, deduplication process, derived corpus,
+  tables, and figures&mdash;is available on Zenodo:&nbsp;<a href="https://doi.org/10.5281/zenodo.21893380"
+  rel="nofollow">https://doi.org/10.5281/zenodo.21893380</a></p>
+
+  <p>CITATION: Aranda-Rosas, A. E., Lozano-Garcia, L. J., Martinez-Robles, S., Gonzalez-Ballesteros,
+  E., &amp; Trejo-Rodriguez, M. A. (2026). Psilocybin for depressive and anxiety disorders
+  (2022&ndash;2026): bibliometric arm of a hybrid bibliometric and meta-analytic study
+  (Version v1.00) [Computer software]. Zenodo</p>
+
+  <p><strong>Companion protocol:</strong>&nbsp;<code>/workspaces/SIST.REV.BIBLIOMETRICO/docs/2
+  Protocolo/PROTOCOL 2.0.docx</code>&nbsp;(PRISMA-P structure, PRISMA-S search documentation).
+  The meta-analysis component is registered in PROSPERO [CRD420261493650] on September
+  2, 2026, at 00:44 UTC, version 1.2, and the file is available in this same repository.</p>
+
+  <div class="markdown-heading">
+
+  <h2 class="heading-element">Search summary</h2>
+
+  <a class="anchor" href="https://github.com/estefanyackerman-dot/SIST.REV.BIBLIOMETRICO#search-summary"></a></div>
+
+  <p>All searches conducted on September 5, 2026, will be updated in two months; a
+  strategy for WOS has also been added. The protocol and the files in this repository
+  include searches for preprints in&nbsp;<strong>medRxiv</strong>&nbsp;and&nbsp;<strong>Europe
+  PMC</strong>&nbsp;.</p>
+
+  <p>Duplication prioritization: WOS &gt; Scopus &gt; PubMed; matches are first sought
+  by normalized DOI and then by normalized title.</p>
+
+  <p>Full search strategies for every database are in&nbsp;<code>/workspaces/SIST.REV.BIBLIOMETRICO/docs/search_strategies.md</code>
+  and in the protocol.</p>'
+authors:
+- affiliation: "Facultad de Estudios Superiores Cuautitl\xE1n"
+  family-names: Aranda Rosas
+  given-names: "Andrea Estefan\xEDa"
+  orcid: 0009-0009-1822-0785
+- affiliation: "Facultad de Estudios Superiores Cuautitl\xE1n"
+  family-names: "Mart\xEDnez-Robles"
+  given-names: Socorro Sandra
+  orcid: 0000-0002-8367-0899
+- affiliation: "Facultad de Estudios Superiores Cuautitl\xE1n"
+  family-names: Gonzalez-Ballesteros
+  given-names: Erik
+  orcid: 0000-0003-1997-9936
+- affiliation: "Facultad de Estudios Superiores Cuautitl\xE1n"
+  family-names: "Lozano Garc\xEDa"
+  given-names: Leandro Jesus
+  orcid: 0009-0005-3680-9535
+- affiliation: "Universidad Nacional Aut\xF3noma de M\xE9xico"
+  family-names: Trejo Rodriguez
+  given-names: "Miguel \xC1ngel"
+  orcid: 0000-0001-8251-6665
+cff-version: 1.2.0
+date-released: '2026-09-05'
+doi: 10.5281/zenodo.22655408
+keywords:
+- psilocybin
+- mesh:D001008
+- Anxiety Disorders
+- mesh:D003866
+- Depressive Disorder
+- mesh:D003863
+- Depression
+- mesh:D001007
+- Anxiety
+- mesh:D003865
+- Depressive Disorder, Major
+license:
+- mit
+message: If you use this work, please cite it using the metadata from this file.
+title: "Psilocybin for Depressive and Anxiety Disorders (2022\u20132026): Hybrid Bibliometric\
+  \ Analysis and Systematic Review (protocol fase)"
+version: v1.1.0
