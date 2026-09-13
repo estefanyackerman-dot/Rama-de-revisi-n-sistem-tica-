@@ -1,8 +1,9 @@
 ---
-title: "Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): análisis bibliométrico y revisión sistemática de ensayos clínicos"
-subtitle: "Manuscrito de trabajo; actualización al 12 de septiembre de 2026"
+title: "Psilocybin for Depressive and Anxiety Disorders (2022–2026): Hybrid Bibliometric Analysis and Systematic Review (protocol phase)"
+subtitle: "Manuscrito de protocolo; actualización al 12 de septiembre de 2026"
 lang: es-MX
 date: 2026-09-12
+date-modified: 2026-09-12
 keywords:
   - psilocibina
   - depresión
@@ -10,15 +11,41 @@ keywords:
   - terapia asistida por psicodélicos
   - revisión sistemática
   - bibliometría
-authors:
-  - "Andrea Estefanía Aranda-Rosas"
-  - "Leandro Jesús Lozano-García"
-  - "Socorro Sandra Martínez-Robles"
-  - "Erik Gonzalez-Ballesteros"
-  - "Miguel Ángel Trejo-Rodríguez"
+author:
+  - family: Aranda-Rosas
+    given: Andrea Estefanía
+    affiliation: Facultad de Estudios Superiores Cuautitlán
+    orcid: 0009-0009-1822-0785
+  - family: Lozano-García
+    given: Leandro Jesús
+    affiliation: Facultad de Estudios Superiores Cuautitlán
+    orcid: 0009-0005-3680-9535
+  - family: Martínez-Robles
+    given: Socorro Sandra
+    affiliation: Facultad de Estudios Superiores Cuautitlán
+    orcid: 0000-0002-8367-0899
+  - family: Gonzalez-Ballesteros
+    given: Erik
+    affiliation: Facultad de Estudios Superiores Cuautitlán
+    orcid: 0000-0003-1997-9936
+  - family: Trejo-Rodríguez
+    given: Miguel Ángel
+    affiliation: Universidad Nacional Autónoma de México
+    orcid: 0000-0001-8251-6665
+bibliography: ref.bib
+csl: ieee.csl
+link-citations: true
+reference-section-title: Referencias
+doi: 10.5281/zenodo.22655408
+version: 1.2.0
+license: CC-BY-4.0
+repository: https://github.com/estefanyackerman-dot/Rama-de-revisi-n-sistem-tica-
+abstract: |
+  Protocolo de una revisión híbrida que combina un análisis bibliométrico de la
+  literatura sobre psilocibina, depresión y ansiedad con una revisión sistemática
+  de ensayos clínicos en adultos. El componente clínico todavía se encuentra en
+  fase de cribado y no debe interpretarse como evidencia metaanalítica concluida.
 ---
-
-# Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): análisis bibliométrico y revisión sistemática de ensayos clínicos
 
 ## Resumen
 
@@ -41,8 +68,9 @@ evidencia de eficacia y seguridad procedente de ensayos clínicos en adultos de
 
 ## Métodos
 
-Se diseñó una revisión híbrida siguiendo PRISMA-P para el protocolo, PRISMA-S
-para la documentación de las búsquedas y PRISMA 2020 para el informe final.
+Se diseñó una revisión híbrida siguiendo PRISMA-P [@shamseer2015] para el
+protocolo, PRISMA-S [@rethlefsen2021] para la documentación de las búsquedas y
+PRISMA 2020 [@page2021] para el informe final.
 El brazo bibliométrico consultó Web of Science Core Collection, Scopus y
 PubMed. El brazo clínico consultó PubMed, bases de Ovid, Cochrane CENTRAL y
 APA PsycInfo, con una búsqueda complementaria en Europe PMC y medRxiv. La
@@ -324,18 +352,3 @@ No se ha declarado financiamiento externo para este proyecto.
 
 La asignación detallada de contribuciones CRediT se completará antes del envío
 editorial.
-
-# Referencias metodológicas
-
-1. Page MJ, McKenzie JE, Bossuyt PM, et al. The PRISMA 2020 statement: an
-   updated guideline for reporting systematic reviews. *BMJ*. 2021;372:n71.
-   doi:10.1136/bmj.n71.
-2. Page MJ, Moher D, Bossuyt PM, et al. PRISMA 2020 explanation and
-   elaboration: updated guidance and exemplars for reporting systematic
-   reviews. *BMJ*. 2021;372:n160. doi:10.1136/bmj.n160.
-3. Shamseer L, Moher D, Clarke M, et al. Preferred reporting items for
-   systematic review and meta-analysis protocols (PRISMA-P) 2015 statement.
-   *BMJ*. 2015;349:g7647. doi:10.1136/bmj.g7647.
-4. Rethlefsen ML, Koffel JB, Bethanishvili G, et al. PRISMA-S: an extension
-   to the PRISMA statement for reporting literature searches in systematic
-   reviews. *Syst Rev*. 2021;10:39. doi:10.1186/s13643-020-01542-z.

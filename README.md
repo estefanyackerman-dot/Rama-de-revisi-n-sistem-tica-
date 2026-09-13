@@ -1,4 +1,4 @@
-# Psilocibina para los trastornos depresivos y de ansiedad (2022-2026)
+# Psilocybin for Depressive and Anxiety Disorders (2022–2026): Hybrid Bibliometric Analysis and Systematic Review (protocol phase)
 
 Repositorio de trabajo para un estudio híbrido que combina un análisis
 bibliométrico amplio con una revisión sistemática de ensayos clínicos sobre
@@ -106,10 +106,10 @@ estimación del efecto terapéutico de la psilocibina.
 
 ## Zenodo y citación
 
-La sección bibliométrica se identifica en el proyecto con el DOI
-`10.5281/zenodo.21893380`. Los metadatos de versión también consignan
-`10.5281/zenodo.22655408`; esta discrepancia debe resolverse antes de fijar la
-citación definitiva.
+La versión de protocolo se identifica con el DOI
+`10.5281/zenodo.22655408`. El DOI
+`10.5281/zenodo.21893380` corresponde al recurso bibliométrico relacionado y se
+conserva como referencia suplementaria.
 
 La información de citación adicional está en [`citation.cff`](./citation.cff).
 El código se distribuye bajo MIT y los documentos y datos derivados bajo

@@ -1,7 +1,7 @@
 # **yaml**
  
- <title:>"Psilocybin for Depressive and Anxiety Disorders (2022-2026): Hybrid Bibliometric Analysis and Systematic Review (protocol)"
-<subtitle:> "protocol"
+ <title:>"Psilocybin for Depressive and Anxiety Disorders (2022–2026): Hybrid Bibliometric Analysis and Systematic Review (protocol phase)"
+<subtitle:> "protocol phase"
 date: "2026-09-12"
 lang: es-MX
 keywords:
@@ -12,7 +12,7 @@ keywords:
 - systematic review
 - psychedelic-assisted therapy
 abstract: |
-bibliography: referencias.bib
+bibliography: ref.bib
 csl: ieee.csl
 link-citations: 10.5281/zenodo.22655408
 <authors:>
@@ -40,7 +40,7 @@ link-citations: 10.5281/zenodo.22655408
 
 
 
-# "Psilocybin for Depressive and Anxiety Disorders (2022-2026): Hybrid Bibliometric Analysis and Systematic Review (protocol)"
+# "Psilocybin for Depressive and Anxiety Disorders (2022–2026): Hybrid Bibliometric Analysis and Systematic Review (protocol phase)"
 
 ## Resumen
 
@@ -151,7 +151,7 @@ Las referencias se generan automáticamente desde el archivo bibliográfico.
 proyecto/  
 ├── README.md  
 ├── manuscrito.md  
-├── referencias.bib  
+├── ref.bib  
 ├── vancouver.csl  
 ├── datos/  
 │ ├── datos\_originales.csv  
