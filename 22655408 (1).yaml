@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it using the metadata from this file."
-title: "Psilocybin for Depressive and Anxiety Disorders (2022-2026): Hybrid Bibliometric Analysis and Systematic Review (protocol)"
+title: "Psilocybin for Depressive and Anxiety Disorders (2022-2026): Hybrid Bibliometric Analysis and Systematic Review"
 abstract: >
   This repository documents the bibliometric arm of a hybrid bibliometric and meta-analytic study on psilocybin for depressive and anxiety disorders. It contains the systematic-review protocol, search strategy documentation, deduplication workflow, derived corpus, figures, and supporting tables. The complete bibliometric section is available on Zenodo at https://doi.org/10.5281/zenodo.21893380.
 authors:
@@ -35,3 +35,5 @@ license: MIT
 doi: 10.5281/zenodo.22655408
 version: 1.2.0
 date-released: 2026-09-05
+publisher:	"Zenodo"
+publisher-place: "Cuautitlán Izcalli, Estado de México, México"

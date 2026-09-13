@@ -1,100 +1,116 @@
-# Psilocybin for Depressive and Anxiety Disorders (2022–2026): Hybrid Bibliometric Analysis and Systematic Review 
+# Psilocibina para los trastornos depresivos y de ansiedad (2022-2026)
 
-Randomized controlled trials focus on working-age outpatients. This repository documents the progress of the systematic review. The complete bibliometric section—including search documentation, deduplication process, derived corpus, tables, and figures—is available on Zenodo: https://doi.org/10.5281/zenodo.21893380 
+Repositorio de trabajo para un estudio híbrido que combina un análisis
+bibliométrico amplio con una revisión sistemática de ensayos clínicos sobre
+psilocibina, depresión y ansiedad en adultos.
 
-CITATION: Aranda-Rosas, A. E., Lozano-Garcia, L. J., Martinez-Robles, S., Gonzalez-Ballesteros, E., & Trejo-Rodriguez, M. A. (2026). Psilocybin for depressive and anxiety disorders (2022–2026): bibliometric arm of a hybrid bibliometric and meta-analytic study (Version v1.00) [Computer software]. Zenodo
+> **Estado al 12 de septiembre de 2026:** el brazo bibliométrico está
+> documentado y cuenta con un corpus deduplicado. El brazo clínico todavía se
+> encuentra en proceso de cribado; aún no deben interpretarse los datos como
+> evidencia metaanalítica de eficacia o seguridad.
 
-**Companion protocol:** `/workspaces/SIST.REV.BIBLIOMETRICO/docs/2 Protocolo/PROTOCOL 2.0.docx` (PRISMA-P structure, PRISMA-S search documentation). The meta-analysis component is registered in PROSPERO [CRD420261493650] on September 2, 2026, at 00:44 UTC, version 1.2, and the file is available in this same repository. 
+## Manuscrito
 
-## Search summary 
+El manuscrito actualizado se encuentra en
+[`borrador y resumen.md`](./borrador%20y%20resumen.md). Incluye:
 
-All searches conducted on September 5, 2026, will be updated in two months; a strategy for WOS has also been added. The protocol and the files in this repository include searches for preprints in **medRxiv** and **Europe PMC** .
+- resumen estructurado e introducción;
+- objetivos y pregunta PICO(S);
+- métodos conforme a PRISMA-P, PRISMA-S y PRISMA 2020;
+- resultados auditables de identificación y deduplicación;
+- discusión, limitaciones y conclusiones provisionales;
+- disponibilidad de datos y declaraciones.
 
-Duplication prioritization: WOS > Scopus > PubMed; matches are first sought by normalized DOI and then by normalized title. 
+## Resultados disponibles
 
-Full search strategies for every database are in `/workspaces/SIST.REV.BIBLIOMETRICO/docs/search_strategies.md` and in the protocol.
+Las búsquedas documentadas identificaron 943 registros:
 
-## Repository structure
+| Fuente registrada | Registros identificados | Retractados eliminados | Duplicados eliminados | Registros conservados |
+| --- | ---: | ---: | ---: | ---: |
+| Web of Science | 278 | 1 | 2 | 275 |
+| Ovid* | 561 | 0 | 345 | 216 |
+| PubMed | 104 | 0 | 70 | 34 |
+| **Total** | **943** | **1** | **417** | **525** |
 
-```
-SIST.REV.BIBLIOMETRICO-main
-    │   CITATION.cff
-    │   LICENSE
-    │   README.md
-    │
-    ├───data
-    │   ├───processed
-    │   │       tridata
-    │   │
-    │   └───raw
-    │       │   ris
-    │       │
-    │       └───3 Estrategia de búsqueda
-    │           │   search_strategies.md
-    │           │
-    │           ├───Bibliometric arm
-    │           │       pubmed.csv-psilocybTi-set.csv
-    │           │       savedrecs (1) WOS 5SEPT.ris
-    │           │       savedrecs (2) WOS 5SEPT.ris
-    │           │
-    │           └───SYST.REV
-    │                   csv-psilocybTi-set.csv
-    │                   ris (3).ris
-    │
-    ├───docs
-    │   │   datos
-    │   │   search_strategies.md
-    │   │
-    │   ├───1 Planeación
-    │   │       PROTOCOLO PSILO-FIRMADO.pdf
-    │   │
-    │   └───2 Protocolo
-    │           prospero 3108.pdf
-    │           PROTOCOL 2.0.docx
-    │           Protocol_Psilocybin_Depression_Anxiety_v2.0 - Spanish (Mexico).docx
-    │
-    ├───results
-    │   └───EVIDENCIAS
-    │       ├───10 Revisión final
-    │       │       CALENDARIO 4 SEPT .png
-    │       │       CHEK
-    │       │       LINK PARA EL CHEKLIST
-    │       │
-    │       ├───4 Búsqueda bibliográfica
-    │       │       aarchivosdenusquedas
-    │       │
-    │       ├───5 Selección de estudios
-    │       │       plantillas
-    │       │
-    │       ├───6 Extracción de datos
-    │       │       DIAGRAMA DE FLUJO PRISMA 2020
-    │       │
-    │       ├───7 Evaluación de calidad
-    │       │       intro final
-    │       │       metodologia
-    │       │
-    │       ├───8 Síntesis
-    │       │       resultados
-    │       │
-    │       └───9 Redacción
-    │               borrador y resumen
-    │
-    └───scripts
-            scripts de R o Python para limpiar datos, eliminar duplicados o generar gráficos
-```
-## Raw database exports
+El corpus derivado contiene 525 registros entre 2022 y 2026. El año 2026 es
+parcial. El archivo de flujo PRISMA todavía mantiene como `NR` los conteos de
+exclusiones durante el cribado, textos completos recuperados, exclusiones con
+motivos y estudios clínicos incluidos.
 
-Raw exports from Web of Science, Scopus, and PubMed are not redistributed in this repository because their licenses do not permit the public redistribution of the complete records. They are fully reproducible by following the documented strategies and dates, and are available through the corresponding author for verification; a command was executed to hide these files and continue with the planned workflow. 
+> **Nota sobre las fuentes:** el archivo de estrategias describe Scopus para
+> el brazo bibliométrico, mientras que las tablas y el pipeline disponibles
+> usan la etiqueta `OVID`. La identidad exacta de esa exportación debe
+> verificarse y armonizarse antes de la publicación.
 
-## Key Descriptive Findings from the Bibliometric Analysis
+## Pregunta clínica
 
-Annual production grew at a compound rate of 27.3 percent (2022 to 2025); 2026 is partial at the search date. Leading countries: USA, United Kingdom, Canada, Australia, Switzerland. The most frequent non-generic author keywords (lsd, ketamine, mdma, psychedelic-assisted therapy, psychotherapy) locate the corpus within the comparative psychedelic therapeutics literature.
+La revisión clínica evalúa adultos de 18 a 65 años con depresión y/o ansiedad,
+tratados con psilocibina sintética o procedente de hongos, con o sin
+psicoterapia asistida. Se consideran placebo, tratamiento habitual,
+comparadores activos y diseños pre-post elegibles.
 
-## Reproducibility
+Los resultados previstos incluyen:
 
-Python 3.12 with pandas and matplotlib for the executed pipeline; R (>= 4.3) with bibliometrix for replication and network analyses. See scripts for details.
-Excel and Zotero were used for the systematic review.
+- gravedad de depresión y ansiedad mediante escalas validadas;
+- respuesta y remisión;
+- funcionamiento y calidad de vida;
+- eventos adversos, tolerabilidad y abandonos.
 
-## License and citation
+Se excluyen, entre otros, estudios en animales, participantes sanos, fase 1,
+cuidados paliativos, cáncer, Parkinson, demencia y combinaciones con otros
+psicodélicos cuando no sea posible aislar el efecto de la psilocibina.
 
-Code under MIT license; documents and derived data under CC-BY 4.0. Cite using `CITATION.cff` or the Zenodo DOI of this deposit.
+## Registro y documentación metodológica
+
+- **Registro:** PROSPERO `CRD420261493650`, registrado el 2 de septiembre de
+  2026, versión 1.2.
+- **Fecha documentada de búsqueda:** 27 de agosto de 2026.
+- **Fuentes bibliométricas:** Web of Science Core Collection, Scopus y PubMed.
+- **Fuentes clínicas:** PubMed, bases de Ovid, Cochrane CENTRAL y APA
+  PsycInfo, complementadas con Europe PMC y medRxiv.
+- **Estrategias completas:** [`search_strategies.md`](./search_strategies.md).
+- **Pipeline de deduplicación:**
+  [`scripts/01_deduplication_pipeline.py`](./scripts/01_deduplication_pipeline.py).
+
+La deduplicación prioriza Web of Science sobre Ovid/Scopus y PubMed, mediante
+DOI normalizado y, cuando no existe DOI, título normalizado.
+
+## Datos y resultados reproducibles
+
+- [`data/corpus_unique_tridatabase.csv`](./data/corpus_unique_tridatabase.csv):
+  corpus único derivado.
+- [`data/prisma_2020_source_counts.csv`](./data/prisma_2020_source_counts.csv):
+  conteos por fuente.
+- [`data/prisma_2020_flow_counts.csv`](./data/prisma_2020_flow_counts.csv):
+  flujo PRISMA disponible.
+- [`data/pandas_corpus_report.csv`](./data/pandas_corpus_report.csv):
+  cobertura de títulos, DOI y años.
+- [`data/pandas_year_report.csv`](./data/pandas_year_report.csv):
+  registros por año y fuente.
+
+El pipeline se ejecutó con Python 3.12 y pandas. Los análisis bibliométricos
+adicionales pueden reproducirse con R y bibliometrix. Las exportaciones
+completas de Web of Science, Scopus y PubMed no se redistribuyen cuando las
+licencias de las bases lo impiden.
+
+## Hallazgos bibliométricos descriptivos
+
+La producción registrada presenta un crecimiento estimado de 27.3% anual entre
+2022 y 2025; 2026 es un año parcial. Los países líderes descritos en el
+análisis son Estados Unidos, Reino Unido, Canadá, Australia y Suiza. Entre las
+palabras clave no genéricas más frecuentes aparecen LSD, ketamina, MDMA,
+terapia asistida por psicodélicos y psicoterapia.
+
+Estos hallazgos describen la literatura recuperada y no equivalen a una
+estimación del efecto terapéutico de la psilocibina.
+
+## Zenodo y citación
+
+La sección bibliométrica se identifica en el proyecto con el DOI
+`10.5281/zenodo.21893380`. Los metadatos de versión también consignan
+`10.5281/zenodo.22655408`; esta discrepancia debe resolverse antes de fijar la
+citación definitiva.
+
+La información de citación adicional está en [`citation.cff`](./citation.cff).
+El código se distribuye bajo MIT y los documentos y datos derivados bajo
+CC-BY 4.0, conforme a la documentación del proyecto.
