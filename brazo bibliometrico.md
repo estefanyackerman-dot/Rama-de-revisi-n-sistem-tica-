@@ -1,6 +1,6 @@
 ---
 
-title: "Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): revisión sistemática y análisis bibliométrico"  
+title: "Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): análisis bibliométrico"  
 subtitle: "Manuscrito de revisión sistemática en curso; actualización al 14 de septiembre de 2026"  
 lang: es-MX  
 date: 2026-09-12  
@@ -11,7 +11,6 @@ keywords:
 *   depresión
 *   ansiedad
 *   terapia asistida por psicodélicos
-*   revisión sistemática
 *   bibliometría  
     author:
 *   family: Aranda-Rosas  
@@ -213,38 +212,14 @@ en adultos mediante una revisión sistemática de ensayos clínicos elegibles.
 
 El protocolo se estructuró con PRISMA-P 2015. Las estrategias de búsqueda se  
 documentaron con PRISMA-S y la revisión completa se informará con PRISMA 2020.  
-El componente metaanalítico fue registrado en PROSPERO con el identificador  
-`CRD420261493650` el 2 de septiembre de 2026, versión 1.2. El brazo  
-bibliométrico no es elegible para PROSPERO y se documenta en el repositorio y  
-en Zenodo.
+El análisis bibliométrico se documenta en el repositorio y en Zenodo; no forma
+parte del registro PROSPERO de la revisión clínica.
 
-## 3.2 Pregunta PICO(S)
+## 3.2 Fuentes y estrategias de búsqueda
 
-| Elemento | Definición operacional |
-| --- | --- |
-| **Población** | Adultos de 18 a 65 años con diagnóstico principal de trastorno depresivo y/o de ansiedad, capaces de mantener su rutina y funcionamiento ocupacional. |
-| **Intervención** | Psilocibina sintética o procedente de hongos, en una o varias dosis definidas, con o sin psicoterapia asistida. |
-| **Comparación** | Placebo, tratamiento habitual, comparador activo o ausencia de comparador cuando sea posible una síntesis pre-post. |
-| **Resultados** | Cambio en depresión o ansiedad medido con instrumentos validados; respuesta, remisión, funcionamiento, calidad de vida, eventos adversos y abandonos. |
-| **Diseño** | Ensayos controlados aleatorizados de fases 2–4, y diseños clínicos elegibles para la síntesis pre-post. Publicaciones y preprints de 2022–2026. |
-
-Se excluyeron estudios de participantes sanos, animales, fase 1, reportes de  
-casos breves, estudios centrados en cáncer, cuidados paliativos, Parkinson,  
-demencia, alcoholismo, trastornos alimentarios u otras condiciones cuando los  
-resultados de depresión o ansiedad no se reportaran por separado. También se  
-excluyeron intervenciones combinadas con LSD, MDMA, ayahuasca, ibogaína, DMT,  
-mescalina u otros psicodélicos cuando no fuera posible aislar el efecto de la  
-psilocibina.
-
-## 3.3 Fuentes y estrategias de búsqueda
-
-El brazo bibliométrico consultó Web of Science Core Collection, Scopus y  
-PubMed. El brazo metaanalítico consultó Web of Science Core Collection,  
-PubMed, las bases de Ovid disponibles para Referencias, Abstracts y revistas  
-suscritas, Cochrane CENTRAL y APA PsycInfo. Europe PMC y medRxiv se utilizaron  
-como fuentes complementarias de preprints.  
-También se planificó revisar las referencias de los ensayos incluidos y de  
-revisiones sistemáticas recientes.
+El brazo bibliométrico consultó Web of Science Core Collection, Scopus y
+PubMed. Las demás fuentes pertenecen exclusivamente al brazo clínico y no se
+integran en este corpus.
 
 Las estrategias completas, las fechas, los filtros y los enlaces de consulta  
 se conservan en [`search_strategies.md`](./search_strategies.md). Las cadenas  
@@ -261,10 +236,6 @@ la sensibilidad.
 | Bibliométrico | Web of Science Core Collection | 05-09-2026 | `PY=2022–2026`; sin límite de idioma | 1,828 |
 | Bibliométrico | Scopus | 05-09-2026 | artículos y revisiones; `PUBYEAR > 2021` y `< 2027` | 1,045 |
 | Bibliométrico | PubMed/MEDLINE | 05-09-2026 | 2022–2027; MEDLINE | 654 |
-| Clínico | PubMed/MEDLINE | 05-09-2026 | humanos; 2022–2026; ensayos/fases II–IV | 102 |
-| Clínico | Ovid: CENTRAL, APA PsycInfo y revistas suscritas | 05-09-2026 | 2022–2026; exclusión de revisiones y otros psicodélicos | Desglosado en el registro |
-| Complementario | medRxiv | 05-09-2026 | preprints; 2022–2026 | 135 |
-| Complementario | Europe PMC | 05-09-2026 | preprints; 2022–2026; términos clínicos | 29 |
 
 Los conteos anteriores corresponden a consultas y exportaciones distintas y no
 deben sumarse entre sí. El corpus actualizado de 2,128 documentos corresponde a
@@ -281,7 +252,7 @@ controlados cuando estuvieron disponibles, sintaxis específica de cada base,
 fecha de ejecución y ausencia de límites por idioma o disponibilidad de texto
 completo.
 
-## 3.4 Gestión de registros y deduplicación
+## 3.3 Gestión de registros y deduplicación
 
 La deduplicación se realizó en el orden Web of Science > Ovid/Scopus > PubMed.  
 Primero se comparó el DOI normalizado y, cuando no estaba disponible, el título  
@@ -295,49 +266,9 @@ retractados se excluyeron antes del cribado. Cuando un registro no contenía DOI
 la coincidencia se determinó mediante título normalizado; cualquier duplicado
 ambiguo debe resolverse manualmente y documentarse en el registro de decisiones.
 
-## 3.5 Selección y extracción de datos
+## 3.4 Marco conceptual del análisis
 
-Dos revisores realizaron de forma independiente el cribado y la extracción,  
-con arbitraje por consenso de los asesores cuando hubo discrepancias. Para  
-cada estudio clínico se extraerán autor, año, país, diseño, tamaño muestral,  
-diagnóstico, dosis, preparación y apoyo psicológico, comparador, cegamiento,  
-escalas, momento de evaluación, respuesta, remisión, eventos adversos y  
-abandonos.
-
-## 3.6 Riesgo de sesgo, efecto y síntesis
-
-La herramienta de evaluación se seleccionará de acuerdo con el diseño  
-definitivo de cada estudio. Para ensayos aleatorizados se evaluarán al menos la  
-aleatorización, las desviaciones de la intervención, los datos faltantes, la  
-medición del desenlace y la selección del resultado informado. Se usarán  
-diferencias de medias o diferencias de medias estandarizadas para resultados  
-continuos y razones de riesgos para resultados dicotómicos, con intervalos de  
-confianza del 95%.
-
-Se realizará metaanálisis únicamente si existe homogeneidad clínica y  
-metodológica suficiente. De lo contrario, se presentará una síntesis narrativa  
-estructurada por diagnóstico, comparador, dosis, apoyo psicológico y tiempo de  
-seguimiento. La certeza de la evidencia se valorará con GRADE cuando los datos  
-permitan una estimación agrupada.
-
-## 3.7 Marco conceptual para la síntesis
-
-La interpretación se organizará mediante un modelo biopsicosocial y  
-multicomponente. El nivel biológico incluirá la conversión de psilocibina a  
-psilocina, la señalización serotoninérgica y las hipótesis de neuroplasticidad.  
-El nivel psicológico considerará la experiencia aguda, las expectativas, la  
-regulación emocional, la alianza terapéutica y la integración. El nivel clínico  
-comprenderá síntomas, respuesta, remisión, funcionamiento, calidad de vida,  
-eventos adversos, ideación suicida y abandonos \[@calder2023; @wong2025\].
-
-Asimismo, se distinguirán tres contextos de exposición: tradicional, social o  
-recreativo y clínico. Esta clasificación evita utilizar prácticas ancestrales o  
-experiencias recreativas como evidencia directa de eficacia terapéutica. En el  
-contexto clínico, el acompañamiento profesional se analizará como componente de  
-seguridad y posible moderador del efecto, no como una explicación automática de  
-la mejoría \[@silczuk2025\].
-
-La bibliometría se interpretará como descripción de la organización del campo,  
+La bibliometría se interpretará como descripción de la organización del campo,
 no como estimación de eficacia. Productividad, coautoría, país de afiliación y  
 frecuencia de palabras clave no son equivalentes a calidad metodológica ni a  
 certeza de la evidencia \[@prisma2021es; @rethlefsen2021\].
@@ -398,15 +329,6 @@ Estos resultados son descriptivos: incluyen documentos que no cumplen los
 criterios clínicos de la revisión y no permiten estimar la eficacia o la  
 seguridad de la psilocibina.
 
-## 4.3 Resultados clínicos
-
-No se reportan todavía resultados clínicos agrupados. En particular, el  
-repositorio no contiene aún un número verificable de ensayos incluidos,  
-estimaciones de efecto, intervalos de confianza, heterogeneidad, evaluación  
-del riesgo de sesgo ni certeza GRADE. Completar esos elementos es un requisito  
-para transformar este manuscrito de trabajo en un artículo de revisión  
-sistemática final.
-
 # 5\. Discusión
 
 ## 5.1 Interpretación de los resultados bibliométricos
@@ -420,64 +342,6 @@ análisis bibliométrico de la síntesis terapéutica. El crecimiento documental
 puede reflejar interés científico, financiación y cambios regulatorios; no  
 demuestra por sí mismo un aumento proporcional de la certeza terapéutica  
 \[@schenberg2025\].
-
-## 5.2 Implicaciones clínicas y psicoterapéuticas
-
-La evidencia clínica contemporánea sugiere una señal de mejoría rápida en  
-algunas poblaciones seleccionadas, pero los resultados dependen de la dosis,  
-del comparador, del desenmascaramiento y del apoyo psicológico  
-\[@goodwin2022; @raison2023\]. La terapia asistida por psicodélicos debe  
-considerarse una intervención multicomponente: la preparación, la observación  
-durante la sesión y la integración posterior forman parte del contexto de  
-seguridad y pueden influir en los desenlaces. La heterogeneidad de estos  
-componentes limita la comparación directa entre ensayos  
-\[@silczuk2025\].
-
-La duración del efecto requiere especial cautela. Una diferencia favorable en  
-las primeras semanas no equivale a remisión sostenida, recuperación funcional  
-ni prevención de recaídas. Los seguimientos deben informar mediciones  
-repetidas, necesidad de nuevas intervenciones y eventos adversos tardíos  
-\[@yngwe2026\]. La ideación suicida también debe medirse de forma específica y  
-no inferirse únicamente de la reducción de síntomas depresivos  
-\[@wong2025\].
-
-## 5.3 Pertinencia histórica, cultural y regulatoria para México
-
-La historia mesoamericana de los hongos psicoactivos aporta un contexto  
-cultural indispensable, pero debe diferenciarse de la farmacología clínica  
-contemporánea. La apropiación de saberes indígenas y la idealización de los  
-usos tradicionales pueden producir una lectura reduccionista de prácticas que  
-dependen de comunidad, ritualidad y responsabilidades específicas  
-\[@villasenor2002; @saavedra2016; @estrada1987\]. Del mismo modo, el uso social  
-no supervisado debe analizarse desde la reducción de riesgos y no como  
-equivalente terapéutico.
-
-La comparación con Canadá resulta útil para estudiar vías excepcionales de  
-acceso, investigación clínica y experiencias de pacientes, pero no permite  
-trasladar automáticamente sus políticas al sistema mexicano  
-\[@davis2021; @delasalle2024\]. En ambos contextos son necesarias selección  
-clínica, consentimiento informado, personal capacitado, vigilancia de eventos  
-adversos y mecanismos de acceso equitativo. En México, cualquier afirmación  
-jurídica específica deberá verificarse en la legislación vigente y en los  
-criterios de las autoridades sanitarias antes del envío editorial.
-
-## 5.4 Implicaciones para la síntesis final
-
-La revisión final deberá reportar por separado eficacia, seguridad,  
-durabilidad, funcionamiento y calidad de vida. También deberá indicar qué  
-participantes fueron excluidos de los ensayos, especialmente personas con  
-psicosis o manía, riesgo suicida agudo, consumo problemático de sustancias,  
-comorbilidad médica o tratamientos concomitantes. Esta información es  
-indispensable para valorar la aplicabilidad externa y evitar que los resultados  
-de muestras seleccionadas se presenten como evidencia para toda la población  
-con depresión o ansiedad.
-
-La interpretación clínica deberá considerar el desenmascaramiento funcional,  
-la dificultad para construir un placebo perceptualmente equivalente, la  
-variabilidad del apoyo psicológico y la duración del seguimiento. Los cambios  
-inmediatos en escalas de síntomas tampoco bastan para establecer beneficio  
-sostenido, seguridad a largo plazo o aplicabilidad a personas excluidas de los  
-ensayos.
 
 # 6\. Limitaciones
 
