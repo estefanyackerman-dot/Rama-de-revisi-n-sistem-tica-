@@ -1,5 +1,5 @@
 ---
-title: "Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): análisis bibliométrico y revisión sistemática de ensayos clínicos"
+title: "Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): revisión sistemática de ensayos clínicos"
 subtitle: "Manuscrito de trabajo; actualización al 12 de septiembre de 2026"
 lang: es-MX
 date: 2026-09-12
@@ -9,7 +9,6 @@ keywords:
   - ansiedad
   - terapia asistida por psicodélicos
   - revisión sistemática
-  - bibliometría
 authors:
   - "Andrea Estefanía Aranda-Rosas"
   - "Leandro Jesús Lozano-García"
@@ -18,7 +17,7 @@ authors:
   - "Miguel Ángel Trejo-Rodríguez"
 ---
 
-# Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): análisis bibliométrico y revisión sistemática de ensayos clínicos
+# Psilocibina para los trastornos depresivos y de ansiedad (2022–2026): revisión sistemática de ensayos clínicos
 
 ## Resumen
 
@@ -34,19 +33,16 @@ del efecto clínico.
 
 ## Objetivo
 
-Describir la evolución y composición de la literatura publicada entre 2022 y
-2026 sobre psilocibina, depresión y ansiedad, y sintetizar por separado la
-evidencia de eficacia y seguridad procedente de ensayos clínicos en adultos de
-18 a 65 años.
+Sintetizar la evidencia de eficacia y seguridad de la psilocibina procedente de
+ensayos clínicos en adultos de 18 a 65 años con depresión o ansiedad.
 
 ## Métodos
 
-Se diseñó una revisión híbrida siguiendo PRISMA-P para el protocolo, PRISMA-S
+Se diseñó una revisión sistemática siguiendo PRISMA-P para el protocolo, PRISMA-S
 para la documentación de las búsquedas y PRISMA 2020 para el informe final.
-El brazo bibliométrico consultó Web of Science Core Collection, Scopus y
-PubMed. El brazo metaanalítico consultó Web of Science Core Collection,
-PubMed, bases de Ovid, Cochrane CENTRAL y APA PsycInfo, con búsquedas
-complementarias en Europe PMC y medRxiv. La
+La revisión clínica consultó Web of Science Core Collection, PubMed, bases de
+Ovid, Cochrane CENTRAL y APA PsycInfo, con búsquedas complementarias en Europe
+PMC y medRxiv. La
 deduplicación priorizó Web of Science sobre Scopus/Ovid y PubMed, mediante DOI
 normalizado y después título normalizado. La búsqueda documentada en
 `search_strategies.md` se ejecutó el 5 de septiembre de 2026.
@@ -66,14 +62,12 @@ eficacia.
 
 ## Conclusiones
 
-El campo publicado se expandió de forma marcada y requiere una separación
-explícita entre estudios clínicos, revisiones, estudios preclínicos y trabajos
-de producción o caracterización del compuesto. El manuscrito no debe
-interpretarse como evidencia de beneficio clínico hasta completar el cribado,
+El manuscrito no debe interpretarse como evidencia de beneficio clínico hasta
+completar el cribado,
 la evaluación del riesgo de sesgo y la síntesis de los ensayos elegibles.
 
 **Palabras clave:** psilocibina; depresión; ansiedad; terapia asistida por
-psicodélicos; revisión sistemática; bibliometría.
+psicodélicos; revisión sistemática.
 
 # 1. Introducción
 
@@ -86,13 +80,6 @@ intervención de acción rápida y potencialmente duradera, pero sus efectos
 dependen del contexto de administración, la preparación psicológica, la
 supervisión, el comparador y la selección de participantes.
 
-La literatura del periodo 2022–2026 también incluye trabajos que no evalúan
-eficacia clínica: estudios de animales, mecanismos neurobiológicos, extracción
-y biosíntesis, revisiones, capítulos y estudios de otros trastornos. Una
-revisión que mezcle estas categorías puede sobreestimar la aplicabilidad de
-los resultados a adultos con depresión o ansiedad. Por ello, este proyecto
-combina un mapa bibliométrico amplio con una revisión clínica restrictiva.
-
 El interés contemporáneo se relaciona además con una historia cultural y
 regulatoria compleja en México y en otros países. Ese contexto es relevante
 para la investigación y la implementación, pero no sustituye la evaluación de
@@ -103,21 +90,17 @@ un tratamiento clínico supervisado.
 
 ## 2.1 Objetivo general
 
-Caracterizar la producción científica reciente sobre psilocibina y trastornos
-depresivos o de ansiedad, y evaluar la eficacia y seguridad de la psilocibina
-en adultos mediante una revisión sistemática de ensayos clínicos elegibles.
+Evaluar la eficacia y seguridad de la psilocibina en adultos mediante una
+revisión sistemática de ensayos clínicos elegibles.
 
 ## 2.2 Objetivos específicos
 
-1. Cuantificar los registros recuperados por fuente, año y tipo documental.
-2. Describir la evolución temática y las redes de investigación del corpus
-   bibliométrico.
-3. Identificar ensayos clínicos que evalúen síntomas depresivos o de ansiedad
+1. Identificar ensayos clínicos que evalúen síntomas depresivos o de ansiedad
    con escalas validadas.
-4. Comparar los efectos de la psilocibina con placebo, tratamiento habitual,
+2. Comparar los efectos de la psilocibina con placebo, tratamiento habitual,
    comparadores activos o condiciones sin comparador cuando el diseño lo
    permita.
-5. Resumir eventos adversos, abandonos, tolerabilidad y la certeza de la
+3. Resumir eventos adversos, abandonos, tolerabilidad y la certeza de la
    evidencia.
 
 # 3. Métodos
@@ -126,10 +109,8 @@ en adultos mediante una revisión sistemática de ensayos clínicos elegibles.
 
 El protocolo se estructuró con PRISMA-P 2015. Las estrategias de búsqueda se
 documentaron con PRISMA-S y la revisión completa se informará con PRISMA 2020.
-El componente metaanalítico fue registrado en PROSPERO con el identificador
-`CRD420261493650` el 2 de septiembre de 2026, versión 1.2. El brazo
-bibliométrico no es elegible para PROSPERO y se documenta en el repositorio y
-en Zenodo.
+El componente clínico fue registrado en PROSPERO con el identificador
+`CRD420261493650` el 2 de septiembre de 2026, versión 1.2.
 
 ## 3.2 Pregunta PICO(S)
 
@@ -151,11 +132,10 @@ psilocibina.
 
 ## 3.3 Fuentes y estrategias de búsqueda
 
-El brazo bibliométrico consultó Web of Science Core Collection, Scopus y
-PubMed. El brazo metaanalítico consultó Web of Science Core Collection,
-PubMed, las bases de Ovid disponibles para Referencias, Abstracts y revistas
-suscritas, Cochrane CENTRAL y APA PsycInfo. Europe PMC y medRxiv se utilizaron
-como fuentes complementarias de preprints.
+La revisión clínica consultó Web of Science Core Collection, PubMed, las bases
+de Ovid disponibles para Referencias, Abstracts y revistas suscritas, Cochrane
+CENTRAL y APA PsycInfo. Europe PMC y medRxiv se utilizaron como fuentes
+complementarias de preprints.
 También se planificó revisar las referencias de los ensayos incluidos y de
 revisiones sistemáticas recientes.
 
@@ -220,31 +200,12 @@ exclusión ni estudios clínicos incluidos. Esos campos permanecen como `NR`
 deben completarse antes de presentar este trabajo como revisión sistemática
 terminada.
 
-## 4.2 Composición del corpus bibliométrico
+## 4.2 Selección clínica
 
-El corpus único contiene 525 registros: 275 de Web of Science, 216 etiquetados
-como Ovid y 34 de PubMed. La cobertura de título fue del 100% en las tres
-fuentes; la
-cobertura de DOI fue del 99.64% en Web of Science y del 100% en Ovid y
-PubMed. La producción registrada por fuente y año está disponible en
-[`data/pandas_year_report.csv`](./data/pandas_year_report.csv).
-
-La producción aumentó durante el periodo observado; el cálculo descriptivo del
-repositorio estima una tasa compuesta anual de 27.3% entre 2022 y 2025. El año
-2026 es parcial y no debe compararse como año completo. Entre las afiliaciones
-o países líderes descritos en el análisis se encuentran Estados Unidos, Reino
-Unido, Canadá, Australia y Suiza. Las palabras clave no genéricas más
-frecuentes incluyen LSD, ketamina, MDMA, terapia asistida por psicodélicos y
-psicoterapia, lo que sitúa el corpus en el campo más amplio de terapias
-psicodélicas.
-
-El archivo de estrategias describe Scopus para el brazo bibliométrico, mientras
-que las tablas de conteo y el pipeline usan la etiqueta `OVID`. La identidad
-exacta de esa exportación debe verificarse y armonizarse antes de la publicación.
-
-Estos resultados son descriptivos: incluyen documentos que no cumplen los
-criterios clínicos de la revisión y no permiten estimar la eficacia o la
-seguridad de la psilocibina.
+La fase de cribado por título y resumen, la recuperación de texto completo, las
+exclusiones con motivos y el número de ensayos clínicos incluidos aún no están
+registrados en los archivos de flujo. Por tanto, no se reportan resultados
+clínicos agrupados ni una estimación de eficacia o seguridad.
 
 ## 4.3 Resultados clínicos
 
@@ -256,13 +217,6 @@ para transformar este manuscrito de trabajo en un artículo de revisión
 sistemática final.
 
 # 5. Discusión
-
-El corpus disponible confirma una expansión rápida de la investigación sobre
-psilocibina, pero también muestra por qué el volumen de publicaciones no debe
-confundirse con evidencia clínica madura. La presencia de estudios
-preclínicos, de producción del compuesto, revisiones y trabajos sobre otros
-trastornos exige aplicar los criterios PICO(S) en el cribado y separar el
-análisis bibliométrico de la síntesis terapéutica.
 
 La interpretación clínica deberá considerar el desenmascaramiento funcional,
 la dificultad para construir un placebo perceptualmente equivalente, la
@@ -276,22 +230,19 @@ ensayos.
 1. La búsqueda de 2026 es parcial y la fecha de actualización prevista todavía
    no se ha ejecutado.
 2. El flujo PRISMA no documenta aún todas las etapas posteriores al cribado.
-3. El corpus bibliométrico no equivale al conjunto de estudios elegibles para
-   el metaanálisis.
-4. Los registros de Ovid se presentan agregados en el flujo disponible, lo que
+3. Los registros de Ovid se presentan agregados en el flujo disponible, lo que
    limita la comparación por base individual.
-5. El repositorio no contiene todavía un archivo bibliográfico completo ni la
+4. El repositorio no contiene todavía un archivo bibliográfico completo ni la
    tabla final de extracción clínica.
-6. No debe inferirse eficacia, superioridad terapéutica ni seguridad a largo
+5. No debe inferirse eficacia, superioridad terapéutica ni seguridad a largo
    plazo a partir de los resultados descriptivos disponibles.
 
 # 7. Conclusiones provisionales
 
-Entre 2022 y 2026 se identificaron 943 registros en las fuentes documentadas;
-después de retirar 417 duplicados y un registro retractado quedaron 525 para
-cribado. El campo presenta crecimiento y conexiones con la investigación de
-otros psicodélicos, pero la revisión clínica todavía no tiene completadas las
-etapas necesarias para una conclusión de eficacia o seguridad. La prioridad
+El flujo clínico documentado identificó 943 registros; después de retirar 417
+duplicados y un registro retractado quedaron 525 para cribado. La revisión
+clínica todavía no tiene completadas las etapas necesarias para una conclusión
+de eficacia o seguridad. La prioridad
 metodológica es completar el flujo PRISMA, identificar los ensayos elegibles,
 evaluar su riesgo de sesgo y reportar una síntesis reproducible.
 
@@ -301,11 +252,7 @@ El corpus derivado y las tablas de conteo se encuentran en
 [`data/corpus_unique_tridatabase.csv`](./data/corpus_unique_tridatabase.csv),
 [`data/prisma_2020_source_counts.csv`](./data/prisma_2020_source_counts.csv) y
 [`data/prisma_2020_flow_counts.csv`](./data/prisma_2020_flow_counts.csv).
-Las estrategias y el pipeline están disponibles en el repositorio. La sección
-bibliométrica completa se identifica en el proyecto con el DOI
-`10.5281/zenodo.21893380`; el registro de versión de los metadatos también
-consigna `10.5281/zenodo.22655408`. Esta discrepancia debe resolverse antes de
-la publicación final y de la citación definitiva.
+Las estrategias y el pipeline clínico están disponibles en el repositorio.
 
 Los registros bibliográficos completos de Web of Science, Scopus y PubMed no se
 redistribuyen cuando las licencias de las bases lo impiden; pueden reproducirse
