@@ -18,7 +18,16 @@ import unicodedata
 import pandas as pd
 
 
-ROOT = Path(__file__).resolve().parent
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+# The script lives in scripts/, but the project inputs and generated data are
+# stored alongside the repo root. Prefer the repo root when available, but keep a
+# fallback to the script directory for standalone execution.
+if (PROJECT_ROOT / "README.md").exists() or (PROJECT_ROOT / "data").exists():
+    ROOT = PROJECT_ROOT
+else:
+    ROOT = SCRIPT_DIR
+
 INPUTS = (
     ("WOS", ROOT / "savedrecs (3).ris"),
     ("OVID", ROOT / "ris (3).ris"),
