@@ -114,6 +114,10 @@ def main():
     total_duplicates = 0
 
     for source, path in INPUTS:
+        if not path.exists():
+            print(f"Skipping {source}: input not found at {path}")
+            continue
+
         records = load_source(source, path)
         identified = len(records)
         records["doi"] = records["doi"].apply(norm_doi)
@@ -157,41 +161,66 @@ def main():
             for record in keep
         )
 
+    if not source_counts:
+        print("No source files found; all inputs were skipped. Existing derived data was left unchanged.")
+        return
+
     output = ROOT / "data" / "corpus_unique_tridatabase.csv"
     output.parent.mkdir(parents=True, exist_ok=True)
-    pd.DataFrame(unique_records).to_csv(output, index=False)
+    corpus_frame = pd.DataFrame(unique_records)
+    corpus_frame.to_csv(output, index=False)
 
-    pd.DataFrame(source_counts).to_csv(
+    source_summary = pd.DataFrame(source_counts)
+    source_summary.to_csv(
         ROOT / "data" / "prisma_2020_source_counts.csv", index=False
     )
-    corpus_frame = pd.DataFrame(unique_records)
-    report = (
-        corpus_frame.groupby("source", dropna=False)
-        .agg(
-            records=("title", "size"),
-            missing_title=("title", lambda column: int(column.isna().sum())),
-            missing_doi=("doi", lambda column: int(column.isna().sum())),
-            year_min=("year", "min"),
-            year_max=("year", "max"),
+    if not source_summary.empty:
+        report = (
+            corpus_frame.groupby("source", dropna=False)
+            .agg(
+                records=("title", "size"),
+                missing_title=("title", lambda column: int(column.isna().sum())),
+                missing_doi=("doi", lambda column: int(column.isna().sum())),
+                year_min=("year", "min"),
+                year_max=("year", "max"),
+            )
+            .reset_index()
         )
-        .reset_index()
-    )
-    report["doi_coverage_percent"] = (
-        (1 - report["missing_doi"] / report["records"]) * 100
-    ).round(2)
-    report["title_coverage_percent"] = (
-        (1 - report["missing_title"] / report["records"]) * 100
-    ).round(2)
-    report.to_csv(ROOT / "data" / "pandas_corpus_report.csv", index=False)
+        if not report.empty:
+            report["doi_coverage_percent"] = (
+                (1 - report["missing_doi"] / report["records"]) * 100
+            ).round(2)
+            report["title_coverage_percent"] = (
+                (1 - report["missing_title"] / report["records"]) * 100
+            ).round(2)
+            report.to_csv(ROOT / "data" / "pandas_corpus_report.csv", index=False)
+    else:
+        pd.DataFrame(
+            columns=[
+                "source",
+                "records",
+                "missing_title",
+                "missing_doi",
+                "year_min",
+                "year_max",
+                "doi_coverage_percent",
+                "title_coverage_percent",
+            ]
+        ).to_csv(ROOT / "data" / "pandas_corpus_report.csv", index=False)
 
-    corpus_frame["year"] = pd.to_numeric(corpus_frame["year"], errors="coerce")
-    year_report = (
-        corpus_frame.groupby(["year", "source"], dropna=False)
-        .size()
-        .reset_index(name="records")
-        .sort_values(["year", "source"], na_position="last")
-    )
-    year_report.to_csv(ROOT / "data" / "pandas_year_report.csv", index=False)
+    if not corpus_frame.empty:
+        corpus_frame["year"] = pd.to_numeric(corpus_frame["year"], errors="coerce")
+        year_report = (
+            corpus_frame.groupby(["year", "source"], dropna=False)
+            .size()
+            .reset_index(name="records")
+            .sort_values(["year", "source"], na_position="last")
+        )
+        year_report.to_csv(ROOT / "data" / "pandas_year_report.csv", index=False)
+    else:
+        pd.DataFrame(columns=["year", "source", "records"]).to_csv(
+            ROOT / "data" / "pandas_year_report.csv", index=False
+        )
 
     flow = pd.DataFrame(
         [
@@ -216,7 +245,10 @@ def main():
         f"{row['source']} unique {row['records_after_deduplication']}"
         for row in source_counts
     )
-    print(f"{summary} | Total {len(unique_records)}")
+    if summary:
+        print(f"{summary} | Total {len(unique_records)}")
+    else:
+        print("No source files found; all inputs were skipped.")
 
 
 if __name__ == "__main__":
