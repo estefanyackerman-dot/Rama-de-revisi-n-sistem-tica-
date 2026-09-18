@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata from this file."
+title: "Psilocybin for Depressive and Anxiety Disorders - thesis"
+abstract: >
+  This repository documents the bibliometric arm of a hybrid bibliometric and meta-analytic study on psilocybin for depressive and anxiety disorders. It contains the systematic-review protocol, search strategy documentation, deduplication workflow, derived corpus, figures, and supporting tables. The complete bibliometric section is available on Zenodo at https://doi.org/10.5281/zenodo.21893380.
+authors:
+  - family-names: Aranda-Rosas
+    given-names: Andrea Estefanía
+    affiliation: Facultad de Estudios Superiores Cuautitlán
+    orcid: 0009-0009-1822-0785
+  - family-names: Martínez-Robles
+    given-names: Socorro Sandra
+    affiliation: Facultad de Estudios Superiores Cuautitlán
+    orcid: 0000-0002-8367-0899
+  - family-names: Gonzalez-Ballesteros
+    given-names: Erik
+    affiliation: Facultad de Estudios Superiores Cuautitlán
+    orcid: 0000-0003-1997-9936
+  -
+version: 1.2.0
+date-released: 2026-09-05

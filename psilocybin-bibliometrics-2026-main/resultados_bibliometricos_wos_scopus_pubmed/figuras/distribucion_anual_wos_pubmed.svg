@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+  <rect width="900" height="520" fill="#ffffff"/>
+  <text x="450" y="40" text-anchor="middle" font-size="26" font-family="Arial, sans-serif" font-weight="bold">Distribución anual de registros en WOS y PubMed</text>
+  <text x="450" y="64" text-anchor="middle" font-size="14" font-family="Arial, sans-serif" fill="#4a4a4a">2022-2026</text>
+
+  <g transform="translate(120,120)">
+    <line x1="0" y1="260" x2="620" y2="260" stroke="#333"/>
+    <line x1="0" y1="0" x2="0" y2="260" stroke="#333"/>
+
+    <g stroke="#1f77b4" stroke-width="3" fill="none">
+      <polyline points="50,190 190,150 330,150 470,95 610,115"/>
+    </g>
+    <g stroke="#2ca02c" stroke-width="3" fill="none">
+      <polyline points="50,220 190,228 330,215 470,205 610,198"/>
+    </g>
+
+    <g fill="#1f77b4">
+      <circle cx="50" cy="190" r="5"/>
+      <circle cx="190" cy="150" r="5"/>
+      <circle cx="330" cy="150" r="5"/>
+      <circle cx="470" cy="95" r="5"/>
+      <circle cx="610" cy="115" r="5"/>
+    </g>
+    <g fill="#2ca02c">
+      <circle cx="50" cy="220" r="5"/>
+      <circle cx="190" cy="228" r="5"/>
+      <circle cx="330" cy="215" r="5"/>
+      <circle cx="470" cy="205" r="5"/>
+      <circle cx="610" cy="198" r="5"/>
+    </g>
+
+    <g font-size="12" font-family="Arial, sans-serif">
+      <text x="50" y="285" text-anchor="middle">2022</text>
+      <text x="190" y="285" text-anchor="middle">2023</text>
+      <text x="330" y="285" text-anchor="middle">2024</text>
+      <text x="470" y="285" text-anchor="middle">2025</text>
+      <text x="610" y="285" text-anchor="middle">2026</text>
+    </g>
+
+    <g font-size="12" font-family="Arial, sans-serif">
+      <rect x="20" y="-80" width="12" height="12" fill="#1f77b4"/>
+      <text x="40" y="-70">WOS</text>
+      <rect x="95" y="-80" width="12" height="12" fill="#2ca02c"/>
+      <text x="115" y="-70">PubMed</text>
+    </g>
+
+    <text x="-15" y="15" font-size="12" font-family="Arial, sans-serif" transform="rotate(-90 -15 15)">Registros</text>
+  </g>
+</svg>

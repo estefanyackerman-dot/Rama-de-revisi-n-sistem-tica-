@@ -1,0 +1,238 @@
+id,label,weight
+1,psilocybin,567
+2,psychedelics,315
+3,depression,218
+4,lsd,101
+5,psychedelic,86
+6,mdma,69
+7,anxiety,69
+8,ketamine,63
+9,treatment-resistant depression,51
+10,major depressive disorder,50
+11,psychotherapy,46
+12,psychedelic-assisted therapy,41
+13,hallucinogens,38
+14,ayahuasca,34
+15,psilocin,34
+16,neuroplasticity,33
+17,serotonin,30
+18,mental health,28
+19,ptsd,26
+20,microdosing,26
+21,cancer,24
+22,dmt,24
+23,psychedelic-assisted psychotherapy,23
+24,psychiatry,22
+25,clinical trials,21
+26,psychedelic therapy,21
+27,psilocybin-assisted therapy,20
+28,systematic review,20
+29,mood disorders,19
+30,palliative care,19
+31,hallucinogen,18
+32,psychiatric disorders,18
+33,antidepressant,18
+34,lysergic acid diethylamide,17
+35,treatment,16
+36,meta-analysis,16
+37,mescaline,15
+38,review,15
+39,addiction,14
+40,psilocybin-assisted psychotherapy,14
+41,existential distress,14
+42,psychopharmacology,13
+43,antidepressants,13
+44,substance use disorder,12
+45,safety,12
+46,mystical experience,12
+47,survey,12
+48,pharmacokinetics,12
+49,psilocybe cubensis,12
+50,magic mushrooms,11
+51,glutamate,11
+52,major depression,10
+53,chronic pain,10
+54,inflammation,10
+55,depressive disorders,10
+56,esketamine,10
+57,therapy,10
+58,bipolar disorder,10
+59,adverse events,9
+60,cognition,9
+61,psychedelic drugs,9
+62,psilocybin therapy,9
+63,ibogaine,9
+64,clinical trial,9
+65,post-traumatic stress disorder,9
+66,fmri,8
+67,neuroimaging,8
+68,ethics,8
+69,5-ht2a,8
+70,mdd,8
+71,treatment resistant depression,8
+72,trauma,8
+73,alcohol use disorder,8
+74,pharmacology,7
+75,efficacy,7
+76,microglia,7
+77,eeg,7
+78,substance use,7
+79,psychedelic assisted therapy,7
+80,mental disorders,7
+81,case report,7
+82,neuroinflammation,7
+83,veterans,7
+84,adverse effects,6
+85,neurobiology,6
+86,lysergic acid diethylamide (lsd),6
+87,qualitative,6
+88,drug discovery,6
+89,stress,6
+90,escitalopram,6
+91,posttraumatic stress disorder,6
+92,functional connectivity,6
+93,music,6
+94,hippocampus,6
+95,biomarkers,6
+96,5-meo-dmt,6
+97,randomized controlled trial,6
+98,side effects,6
+99,treatment resistance,6
+100,psilocybe,5
+101,anhedonia,5
+102,pain,5
+103,psychedelic medicine,5
+104,4-methylenedioxyamphetamine,5
+105,n-methyl-3,5
+106,tryptamines,5
+107,cluster headache,5
+108,microdose,5
+109,psychology,5
+110,therapeutics,5
+111,psychosis,5
+112,affective disorders,5
+113,5-ht2a receptor,5
+114,substance use disorders,5
+115,group therapy,5
+116,scoping review,5
+117,adult psychiatry,5
+118,obsessive-compulsive disorder,5
+119,mood,5
+120,eating disorders,5
+121,prefrontal cortex,5
+122,qualitative research,5
+123,dimethyltryptamine,4
+124,opioids,4
+125,mindfulness,4
+126,neuroticism,4
+127,personality,4
+128,drug interactions,4
+129,classic psychedelics,4
+130,drugs,4
+131,rapid-acting antidepressant,4
+132,harm reduction,4
+133,postpartum depression,4
+134,attitudes,4
+135,bdnf,4
+136,psychedelic agents,4
+137,emotional breakthrough,4
+138,set and setting,4
+139,5-ht<sub>2a</sub>,4
+140,neurogenesis,4
+141,rapid-acting antidepressants,4
+142,animal models,4
+143,race,4
+144,psychoactive substances,4
+145,4-methylenedioxymethamphetamine (mdma),4
+146,zebrafish,4
+147,cortisol,4
+148,trd,4
+149,psychedelic experience,4
+150,neurotransmitter release,4
+151,behavior,4
+152,neurodegenerative diseases,4
+153,psychedelic treatment,4
+154,head-twitch response,4
+155,default mode network,4
+156,neuropsychiatry,4
+157,suicide,4
+158,tryptamine,3
+159,cocaine,3
+160,toxicity,3
+161,psychologists,3
+162,immunomodulation,3
+163,serotonin 5-ht<sub>2a</sub> receptor,3
+164,dopamine,3
+165,gaba,3
+166,open field test,3
+167,randomised controlled trial,3
+168,headache,3
+169,covid-19,3
+170,older adults,3
+171,cognitive flexibility,3
+172,n-dimethyltryptamine (dmt),3
+173,alcohol,3
+174,drug policy,3
+175,nsduh,3
+176,classical psychedelics,3
+177,5ht2a receptor,3
+178,policy,3
+179,traditional medicine,3
+180,phenomenology,3
+181,clinical,3
+182,4-methylenedioxymethamphetamine,3
+183,mice,3
+184,psychoplastogen,3
+185,public health,3
+186,treatment-resistant,3
+187,functional magnetic resonance imaging,3
+188,serious illness,3
+189,therapeutic alliance,3
+190,serotonergic psychedelics,3
+191,demoralization,3
+192,integration,3
+193,n-dimethyltryptamine,3
+194,clinical research,3
+195,cannabis,3
+196,dissociation,3
+197,mystical experiences,3
+198,equity,3
+199,neuropathic pain,3
+200,serotonin receptor,3
+201,ssris,3
+202,neuronal plasticity,3
+203,mushroom,3
+204,neuroscience,3
+205,healing,3
+206,executive function,3
+207,end-of-life,3
+208,psychedelic assisted psychotherapy,3
+209,drug use,3
+210,unblinding,3
+211,pharmacotherapy,3
+212,suicidal ideation,3
+213,transcranial magnetic stimulation,3
+214,c-fos,3
+215,acceptability,3
+216,cerebral blood flow,3
+217,placebo,3
+218,receptors,3
+219,toxicology,3
+220,anorexia nervosa,3
+221,end-of-life care,3
+222,oregon,3
+223,depressive disorder,3
+224,anxiety disorders,3
+225,acute effects,3
+226,amygdala,3
+227,ocd,3
+228,sapap3,3
+229,metabolism,3
+230,metabolic engineering,3
+231,music therapy,3
+232,traumatic brain injury,3
+233,resilience,3
+234,therapeutic potential,3
+235,quality of life,3
+236,brain-derived neurotrophic factor (bdnf),3
+237,5-ht<sub>2a</sub>receptor,3

@@ -1,0 +1,20 @@
+id	label	weight
+1	United States	498
+2	Canada	175
+3	United Kingdom	158
+4	Australia	114
+5	Switzerland	97
+6	Germany	95
+7	Netherlands	64
+8	Poland	56
+9	Denmark	47
+10	China	41
+11	Brazil	36
+12	Spain	34
+13	France	34
+14	Italy	31
+15	India	18
+16	Japan	17
+17	Mexico	16
+18	Portugal	13
+19	Belgium	6

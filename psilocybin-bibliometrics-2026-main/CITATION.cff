@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Psilocybin for depressive and anxiety disorders (2022-2026): bibliometric arm of a hybrid bibliometric and meta-analytic study"
+version: "1.0.0"
+date-released: "2026-08-11"
+license: MIT
+authors:
+  - family-names: "Aranda-Rosas"
+    given-names: "Andrea Estefania"
+    affiliation: "Departamento de Ciencias Biologicas, Facultad de Estudios Superiores Cuautitlan, Universidad Nacional Autonoma de Mexico, Cuautitlan Izcalli, Mexico"
+  - family-names: "Lozano-Garcia"
+    given-names: "Leandro Jesus"
+    affiliation: "Departamento de Ciencias Biologicas, Facultad de Estudios Superiores Cuautitlan, Universidad Nacional Autonoma de Mexico, Cuautitlan Izcalli, Mexico"
+  - family-names: "Martinez-Robles"
+    given-names: "Sandra"
+    affiliation: "Departamento de Ciencias Biologicas, Facultad de Estudios Superiores Cuautitlan, Universidad Nacional Autonoma de Mexico, Cuautitlan Izcalli, Mexico"
+  - family-names: "Gonzalez-Ballesteros"
+    given-names: "Erik"
+    affiliation: "Departamento de Ciencias Biologicas, Facultad de Estudios Superiores Cuautitlan, Universidad Nacional Autonoma de Mexico, Cuautitlan Izcalli, Mexico"
+  - family-names: "Trejo-Rodriguez"
+    given-names: "Miguel Angel"
+    orcid: "https://orcid.org/0000-0001-8251-6665"
+    affiliation: "Departamento de Ciencias Biologicas, Facultad de Estudios Superiores Cuautitlan, Universidad Nacional Autonoma de Mexico, Cuautitlan Izcalli, Mexico"
+keywords:
+  - psilocybin
+  - depression
+  - anxiety
+  - bibliometric analysis
+  - meta-analysis
+  - PRISMA-S
